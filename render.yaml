@@ -1,1 +1,6 @@
-services:\n  - type: web\n    name: ada-scanner-backend\n    env: docker\n    plan: free\n    dockerfilePath: Dockerfile\n
+services:
+  - type: web
+    name: ada-scanner-backend
+    env: docker
+    plan: free
+    dockerfilePath: Dockerfile
