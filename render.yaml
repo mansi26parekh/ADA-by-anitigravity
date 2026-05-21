@@ -1,1 +1,1 @@
-services:\n  - type: web\n    name: ada-scanner-backend\n    env: node\n    plan: free\n    buildCommand: npm install\n    startCommand: node server.js\n    rootDir: backend
+services:\n  - type: web\n    name: ada-scanner-backend\n    env: docker\n    plan: free\n    dockerfilePath: Dockerfile\n
